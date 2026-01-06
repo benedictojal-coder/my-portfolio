@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-accent: #00f5ff;
+  --color-brand-black: #050505;
+}
+
+body {
+  background-color: var(--color-brand-black);
+  color: white;
+  margin: 0;
+  font-family: sans-serif;
+}
