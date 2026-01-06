@@ -90,7 +90,7 @@ export default function App() {
             <a href="mailto:benedictojal@gmail.com" className="bg-white text-black px-12 py-5 font-black rounded-sm hover:bg-[#00f5ff] transition-all uppercase text-sm">
               Email Me
             </a>
-            <a href="/Benedict_Ogutu_CV.pdf" download className="border border-white/20 px-12 py-5 font-black rounded-sm hover:bg-white/5 transition-all uppercase text-sm text-center">
+            <a href="" download className="border border-white/20 px-12 py-5 font-black rounded-sm hover:bg-white/5 transition-all uppercase text-sm text-center">
               Download CV
             </a>
           </div>
