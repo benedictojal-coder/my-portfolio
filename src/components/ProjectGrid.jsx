@@ -2,28 +2,27 @@ import React from 'react';
 
 const projects = [
   {
-    title: "ARED Group Digital Platform",
-    category: "Corporate Web Development",
-    description: "Architected and deployed the official platform for a prominent GreenTech company. Focused on high-performance delivery, responsive design, and a clean UI to showcase solar-powered technological solutions.",
-    tags: ["React", "Tailwind CSS", "Production-Ready", "Deployment"],
-    link: "https://aredgroup.com/",
-    // New field for specific technical wins
+    title: "Metropolis Supermarket",
+    category: "Full-Stack E-Commerce",
+    description: "A comprehensive MERN stack application featuring dynamic product serving and secure user workflows. Built to handle real-world retail data with a focus on security and scalability.",
+    tags: ["MongoDB", "Express", "React", "Node.js"],
+    link: "https://metropolis-supermarket.vercel.app/",
     contributions: [
-      "Implemented a fully responsive UI for global accessibility",
-      "Optimized asset loading for high-speed performance",
-      "Managed production deployment and domain configuration"
+      "Implemented JWT Authentication & secure Controllers for user data",
+      "Architected a MongoDB schema to serve products dynamically",
+      "Built RESTful API endpoints for seamless Frontend-Backend communication"
     ]
   },
   {
-    title: "Project Beta",
-    category: "UI/UX Engineering",
-    description: "Interactive data visualization dashboard with real-time updates and custom animation logic for complex data sets.",
-    tags: ["TypeScript", "Framer Motion", "Vite"],
-    link: "#",
+    title: "ARED Group Platform",
+    category: "Corporate Web Development",
+    description: "High-performance corporate platform for a GreenTech leader. Focused on responsive design, modern UI/UX, and production-grade deployment for solar-powered solutions.",
+    tags: ["React", "Tailwind CSS", "Vercel", "Production"],
+    link: "https://aredgroup.com/",
     contributions: [
-      "Custom SVG animation engine",
-      "Real-time data polling",
-      "Dark mode architecture"
+      "Optimized asset delivery for high-speed performance",
+      "Developed a mobile-first, professional UI for global users",
+      "Handled domain mapping and production deployment pipeline"
     ]
   }
 ];
@@ -78,9 +77,9 @@ export default function ProjectGrid() {
                 </a>
               </div>
 
-              {/* NEW SECTION: Key Contributions */}
+              {/* Key Contributions Section */}
               <div className="mt-auto pt-6 border-t border-white/5">
-                <p className="text-xs font-mono text-slate-500 uppercase tracking-widest mb-3">Key Contributions:</p>
+                <p className="text-xs font-mono text-slate-500 uppercase tracking-widest mb-3">Technical Highlights:</p>
                 <ul className="space-y-2">
                   {project.contributions.map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-slate-400">
